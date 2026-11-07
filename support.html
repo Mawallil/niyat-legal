@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Niyat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #C5A358;
+            --primary-dark: #A68A46;
+            --bg: #0F1115;
+            --card-bg: #1A1D24;
+            --text: #E0E0E0;
+            --text-dim: #A0A0A0;
+            --border: #2A2E37;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .support-container {
+            max-width: 600px;
+            width: 90%;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 24px;
+            border: 1px solid var(--border);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 24px;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 16px;
+            color: white;
+        }
+
+        p {
+            color: var(--text-dim);
+            font-size: 16px;
+            margin-bottom: 32px;
+        }
+
+        .contact-card {
+            background: rgba(197, 163, 88, 0.05);
+            border: 1px dashed var(--primary);
+            padding: 24px;
+            border-radius: 16px;
+            margin-bottom: 32px;
+        }
+
+        .email {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--primary);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(197, 163, 88, 0.3);
+        }
+
+        .btn:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(197, 163, 88, 0.4);
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: var(--text-dim);
+        }
+
+        .divider {
+            height: 1px;
+            background: var(--border);
+            margin: 32px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="support-container">
+        <div class="logo">NIYAT</div>
+        <h1>Customer Support</h1>
+        <p>We're here to help you on your journey to learning Arabic and the Quran. If you have any questions, encounter
+            issues, or have feedback, please don't hesitate to reach out.</p>
+
+        <div class="contact-card">
+            <span
+                style="display: block; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; color: var(--text-dim);">Direct
+                Support Email</span>
+            <a href="mailto:mawallildevop@gmail.com" class="email">mawallildevop@gmail.com</a>
+        </div>
+
+        <a href="mailto:mawallildevop@gmail.com" class="btn">Send us an Email</a>
+
+        <div class="divider"></div>
+
+        <div class="footer">
+            &copy; 2026 Niyat App. All rights reserved.<br>
+            Committed to your spiritual and educational growth.
+        </div>
+    </div>
+</body>
+
+</html>
